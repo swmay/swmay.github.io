@@ -1,0 +1,162 @@
+/*
+* index_under.css
+*/
+
+/******************************页面全局样式******************************************/
+
+
+/******************************页面上部分样式******************************************/
+div#page-header {
+	margin-left: 30px;
+    margin-right: 30px;
+}
+
+div#page-header p.menu {
+    text-align: right;
+    font-size: 13px;
+    margin: 25px 0 0.5em 0; /*调整外边距顺序：上、右、下、左*/
+    padding: 0;
+}
+
+div#page-header p.menu-swmay {
+    background-color: #304558;
+    color: #fff;
+    padding: 0 0 0 248px;
+    margin: 10px 0 0 0;  /*调整外边距顺序：上、右、下、左*/
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+div#page-header img {
+    padding: 0;
+    display: block;
+    margin: -82px 0 1px 3em;
+    width: 248px;
+    height: 70px;
+    border: none;
+}
+
+div#page-header a.badge {
+    background-color: transparent;
+    float: right;
+    margin-right: 100px;
+    margin-top: 2px;
+}
+
+div#page-header a.badge img {
+    margin: -78px 0 0px 0; /*调整外边距顺序：上、右、下、左*/
+    height: 75px;
+    width: 75px;
+}
+
+/******************************页面中间部分样式******************************************/
+div#page-content {
+    padding-top: 0;
+    /*margin-right: 13em;*/
+    padding-right: 30px;
+}
+
+div#preamble {
+    padding-bottom: 1em;
+    margin-left: 30px;
+}
+
+div#preamble h1.identify {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #405871;
+    background-color: inherit;
+    color: #036;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+div#preamble p.content {
+	margin: 0 0 2px 0; /*调整外边距顺序：上、右、下、左*/
+    padding: 0;
+}
+
+div#example {
+    background-color: #e5ecf3;
+    color: #000;
+    padding: 0.5em;
+    margin: 0em 0em 0px 0px; /*调整外边距顺序：上、右、下、左*/
+}
+
+div#example p {
+    line-height: 1em;
+}
+
+div#example p, 
+div.example pre, 
+div.example table {
+    padding: 0;
+    margin: 0;
+}
+
+div.example pre, 
+div.example p > code {
+    font-size: 13px;
+}
+
+pre, code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+}
+
+div#warning {
+	border: 1px solid #f00;
+	/*margin: 0em 30px 6px 30px;
+    padding: 0*/
+    font-size: 14px;
+}
+
+div#warning {
+	background-color: #eee;
+    color: #036;
+    padding: 0.5em;
+    margin: 0em 30px 8px 30px;
+}
+
+
+div#warning strong {
+    font-weight: bold;
+}
+
+
+
+/******************************页面下部分样式******************************************/
+div#footer {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 13px;
+    border-top: 1px solid #405871;
+    padding-top: 0.2em;
+    /*margin: 0px auto;
+    left: 40px;
+    right: 55px;
+    position: absolute;
+    bottom: 0px;*/
+}
+
+div#footer p.swmay {
+    float: left;
+    text-align: left;
+    padding: 0 0 1em 0;
+    margin-top: 0;		/*设置元素的上边距*/	
+    margin-bottom: 0;	/*设置元素的下边距*/
+}
+
+div#footer p.menu {
+    float: right;
+    text-align: right;
+    margin-top: 0;		/*设置元素的上边距*/
+    padding: 0 0 1em 0;
+    margin-bottom: 0;	/*设置元素的下边距*/
+}
+div#footer a#love{
+	text-decoration-line: none;
+}
