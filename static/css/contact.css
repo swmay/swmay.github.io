@@ -1,0 +1,79 @@
+/*@CHARSET "UTF-8";*/
+
+/**
+*
+*/
+
+div#loge {
+	margin: 10px 30px 0px 30px;
+}
+
+div#loge p.loge-title {
+    color: black;
+    font-size: 2em;
+    line-height: 0em;
+    font-weight: bold;
+}
+
+div#contact-footer {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+    border-top: 1px solid #405871;
+    padding-top: 0.2em;
+}
+
+div#contact-warning {
+	border: 1px solid #f00;
+	/*margin: 0em 30px 6px 30px;
+    padding: 0*/
+    font-size: 14px;
+}
+
+div#contact-warning {
+	background-color: #eee;
+    color: #036;
+    padding: 0.5em;
+    margin: 0em 30px 8px 30px;
+}
+
+
+div#contact-warning strong {
+    font-weight: bold;
+}
+
+
+/******************************页面下部分样式******************************************/
+div#footer {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 13px;
+    border-top: 1px solid #405871;
+    padding-top: 0.2em;
+    /*margin: 0px auto;
+    left: 40px;
+    right: 55px;
+    position: absolute;
+    bottom: 0px;*/
+}
+
+div#footer p.swmay {
+    float: left;
+    text-align: left;
+    padding: 0 0 1em 0;
+    margin-top: 0;		/*设置元素的上边距*/	
+    margin-bottom: 0;	/*设置元素的下边距*/
+}
+
+div#footer p.menu {
+    float: right;
+    text-align: right;
+    margin-top: 0;		/*设置元素的上边距*/
+    padding: 0 0 1em 0;
+    margin-bottom: 0;	/*设置元素的下边距*/
+}
+div#footer a#love{
+	text-decoration-line: none;
+}

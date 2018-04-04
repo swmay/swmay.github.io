@@ -1,0 +1,108 @@
+/*@CHARSET "UTF-8";*/
+
+/**
+*
+*/
+
+div#loge {
+	margin: 10px 30px 0px 30px;
+}
+
+div#loge p.loge-title {
+    color: black;
+    font-size: 2em;
+    line-height: 0em;
+    font-weight: bold;
+}
+
+div#sitemap-footer {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+    border-top: 1px solid #405871;
+    padding-top: 0.2em;
+}
+
+div#sitemap-content {
+    padding-top: 0;
+    /*margin-right: 13em;*/
+    padding-right: 30px;
+}
+
+div#sitemap-preamble {
+    padding-bottom: 0.5em;
+    margin-left: 30px;
+}
+
+div#sitemap-preamble h2.sitemap-line {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #405871;
+    background-color: inherit;
+    color: #036;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+div#sitemap-preamble a.sitemap-a { 
+    /*color: #0073c7;
+    background-color: inherit;
+    text-decoration:none;*/
+    font-size:6px;
+}
+
+a:link { /*链接未访问，蓝色，无下划线*/
+	color: blue; 
+	text-decoration:none;
+}
+
+a:active:{ /*激活状态*/
+	color: red; 
+	background-color: inherit;
+}
+
+a:visited { /*已访问，紫色，无下划线*/
+    color: #5A88B5;
+    background-color: inherit;
+}
+
+a:hover { /*鼠标移近，红色，有下划线*/
+	color: red; 
+	text-decoration:underline;
+	}
+
+/******************************页面下部分样式******************************************/
+div#footer {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 13px;
+    border-top: 1px solid #405871;
+    padding-top: 0.2em;
+    /*margin: 0px auto;
+    left: 40px;
+    right: 55px;
+    position: absolute;
+    bottom: 0px;*/
+}
+
+div#footer p.swmay {
+    float: left;
+    text-align: left;
+    padding: 0 0 1em 0;
+    margin-top: 0;		/*设置元素的上边距*/	
+    margin-bottom: 0;	/*设置元素的下边距*/
+}
+
+div#footer p.menu {
+    float: right;
+    text-align: right;
+    margin-top: 0;		/*设置元素的上边距*/
+    padding: 0 0 1em 0;
+    margin-bottom: 0;	/*设置元素的下边距*/
+}
+div#footer a#love{
+	text-decoration-line: none;
+}

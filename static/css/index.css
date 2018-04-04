@@ -74,6 +74,7 @@ div#preamble h1.identify {
     font-size: 22px;
     font-weight: bold;
 }
+
 div#preamble p.content {
 	margin: 0 0 2px 0; /*调整外边距顺序：上、右、下、左*/
     padding: 0;
