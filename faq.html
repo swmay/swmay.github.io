@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>FAQ</title>
+		<meta http-equiv="keywords" content="swmay,FAQ,faq">
+		<meta http-equiv="description" content="This is FAQ page">
+		<link href="./images/favicon.ico" rel="shortcut icon">
+		<link rel="stylesheet" type="text/css" href="./static/css/faq.css"/>
+		<script type="text/javascript" src="./static/js/faq.js"></script>
+		<script type="text/javascript"> 
+			/**
+			if (window!=top) // 判断当前的window对象是否是top对象 
+			top.location.href =window.location.href; // 如果不是，将top对象的网址自动导向被嵌入网页的网址 (反框架嵌入方式)
+			*/
+			try{ //防止被框架嵌套
+				top.location.hostname;
+				if (top.location.hostname != window.location.hostname) {
+					top.location.href =window.location.href;
+				}
+			}catch(e){
+				top.location.href = window.location.href;
+			}
+		</script>
+	</head>
+	<body>
+		<div id="loge">
+		<p class="loge-title">FAQ</p>
+		</div>
+		<div id="faq-footer"></div>
+		<div id="faq-content">
+	        <div id="faq-preamble">
+	            <p class="faq-content">Where are we from?</p>
+	            <div id="faq-example">
+	            	<p>
+	            		<code>A five-tier city in mainland China.</code>
+	            	</p>
+	            </div>
+	        </div>
+	    </div>
+	    <div id="faq-content">
+	        <div id="faq-preamble">
+	            <p class="faq-content">What do we do?</p>
+	            <div id="faq-example">
+	            	<p>
+	            		<code>We can provide any deep solution.</code>
+	            	</p>
+	            </div>
+	        </div>
+	    </div>
+	    <div id="faq-content">
+	        <div id="faq-preamble">
+	            <p class="faq-content">What kind of requirements can you make?</p>
+	            <div id="faq-example">
+	            	<p>
+	            		<code>Any demand.</code>
+	            	</p>
+	            </div>
+	        </div>
+	    </div>
+	    
+	    <!-- 网页页脚部分 -->
+		<div id="footer">
+			<p class="swmay">Copyright ©2018 Swmay Technologies Co., Ltd. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Our slogan is <a id="love" href="http://www.swmay.com">cats hind their paws.</a></p>
+			<p class="menu"><a href="./faq.html">FAQ</a> | <a href="./contact.html">Contact us</a> | <a href="./sitemap.html">Sitemap</a></p>
+		</div>
+		<script type="text/javascript">
+			love(document.getElementById('love'));
+		</script>
+	</body>
+</html>

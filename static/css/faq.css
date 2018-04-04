@@ -1,0 +1,104 @@
+/*@CHARSET "UTF-8";*/
+
+/**
+*
+*/
+
+div#loge {
+	margin: 10px 30px 0px 30px;
+}
+
+div#loge p.loge-title {
+    color: black;
+    font-size: 2em;
+    line-height: 0em;
+    font-weight: bold;
+}
+
+div#faq-footer {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 13px;
+    border-top: 1px solid #405871;
+    padding-top: 0.2em;
+}
+
+div#faq-content {
+    padding-top: 0;
+    padding-right: 30px;
+}
+
+div#faq-preamble {
+    padding-bottom: 1em;
+    margin-left: 30px;
+}
+
+div#faq-preamble p.faq-content {
+	margin: 0 0 2px 0; /*调整外边距顺序：上、右、下、左*/
+    padding: 0;
+}
+
+div#faq-example {
+    background-color: #e5ecf3;
+    color: #000;
+    padding: 0.5em;
+    margin: 0em 0em 0px 0px; /*调整外边距顺序：上、右、下、左*/
+}
+
+div#faq-example p {
+    line-height: 1em;
+}
+
+div#faq-example p, 
+div.faq-example pre, 
+div.faq-example table {
+    padding: 0;
+    margin: 0;
+}
+
+div.faq-example pre, 
+div.faq-example p > code {
+    font-size: 13px;
+}
+
+pre, code {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+}
+
+
+/******************************页面下部分样式******************************************/
+div#footer {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 13px;
+    border-top: 1px solid #405871;
+    padding-top: 0.2em;
+    /*margin: 0px auto;
+    left: 40px;
+    right: 55px;
+    position: absolute;
+    bottom: 0px;*/
+}
+
+div#footer p.swmay {
+    float: left;
+    text-align: left;
+    padding: 0 0 1em 0;
+    margin-top: 0;		/*设置元素的上边距*/	
+    margin-bottom: 0;	/*设置元素的下边距*/
+}
+
+div#footer p.menu {
+    float: right;
+    text-align: right;
+    margin-top: 0;		/*设置元素的上边距*/
+    padding: 0 0 1em 0;
+    margin-bottom: 0;	/*设置元素的下边距*/
+}
+div#footer a#love{
+	text-decoration-line: none;
+}
+
+
+
