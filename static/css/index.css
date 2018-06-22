@@ -75,7 +75,7 @@ div#preamble h1.identify {
     background-color: inherit;
     color: #036;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -109,7 +109,7 @@ div.example p > code {
 
 pre, code {
     font-family: "Courier New", Courier, monospace;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 div#warning {
