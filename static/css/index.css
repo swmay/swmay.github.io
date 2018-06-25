@@ -79,16 +79,11 @@ div#preamble h1.identify {
     font-weight: bold;
 }
 
-div#preamble p.content {
-	margin: 0 0 2px 0; /*调整外边距顺序：上、右、下、左*/
-    padding: 0;
-}
-
 div#example {
     background-color: #e5ecf3;
     color: #000;
     padding: 0.5em;
-    margin: 0em 0em 0px 0px; /*调整外边距顺序：上、右、下、左*/
+    margin: 0.2em 0em 0px 0px; /*调整外边距顺序：上、右、下、左*/
 }
 
 div#example p {
