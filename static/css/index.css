@@ -107,6 +107,10 @@ pre, code {
     font-size: 12px;
 }
 
+code, a {
+    text-decoration-line: none;
+}
+
 div#warning {
 	border: 1px solid #f00;
 	/*margin: 0em 30px 6px 30px;
