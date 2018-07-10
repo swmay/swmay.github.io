@@ -88,21 +88,15 @@ div#example {
 
 div#example p {
     line-height: 1em;
-}
-
-div#example p, 
-div.example pre, 
-div.example table {
     padding: 0;
     margin: 0;
 }
 
-div.example pre, 
 div.example p > code {
     font-size: 13px;
 }
 
-pre, code {
+code {
     font-family: "Courier New", Courier, monospace;
     font-size: 12px;
 }
