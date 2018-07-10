@@ -92,16 +92,12 @@ div#example p {
     margin: 0;
 }
 
-div.example p > code {
-    font-size: 13px;
-}
-
-code {
+code#i_content {
     font-family: "Courier New", Courier, monospace;
     font-size: 12px;
 }
 
-a {
+code#i_content a {
     text-decoration-line: none;
 }
 
