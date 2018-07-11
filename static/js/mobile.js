@@ -1,29 +1,30 @@
 /**
-* ç®€å•çš„è¯†åˆ«å®¢æˆ·ç«¯ç±»å‹,æ ¹æ®ç±»å‹è¿›å…¥ä¸åŒçš„é¡µé¢
+* ¼òµ¥µÄÊ¶±ğ¿Í»§¶ËÀàĞÍ,¸ù¾İÀàĞÍ½øÈë²»Í¬µÄÒ³Ãæ
 */	
 function checkserAgent() {
 	var userAgentInfo = navigator.userAgent;
-	var userAgentKeywords = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod", "MQQBrowser");//å®šä¹‰ç§»åŠ¨ç»ˆç«¯çš„æ“ä½œç³»ç»Ÿç±»å‹
+	var userAgentKeywords = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod", "MQQBrowser");//¶¨ÒåÒÆ¶¯ÖÕ¶ËµÄ²Ù×÷ÏµÍ³ÀàĞÍ
 	var flag = false;
-	//æ’é™¤windowsç³»ç»Ÿ è‹¹æœç³»ç»Ÿ
+	//ÅÅ³ıwindowsÏµÍ³ Æ»¹ûÏµÍ³
 	if (userAgentInfo.indexOf("Windows NT") == -1) {
 		flag = true;
 	}
 	return flag;
 }
-//ç§»åŠ¨è®¾å¤‡
-if (checkserAgent()) {
-	document.location.href = "./mobile.html";
-	//alert('ç§»åŠ¨è®¾å¤‡ï¼');
-}
-/*else
-{
+//·ÇÒÆ¶¯Éè±¸
+if (!checkserAgent()) {
 	document.location.href = "./index.html";
-	//alert('PCè®¾å¤‡ï¼');
+	//alert('·ÇÒÆ¶¯Éè±¸£¡');
+}/*
+else
+{
+	document.location.href = "./mobile.html";
+	//alert('ÒÆ¶¯Éè±¸£¡');
 }*/
 
+
 /*
- *   å¯¹åº”<script>love(document.getElementById('love'));</script>è„šæœ¬
+ *   ¶ÔÓ¦<script>love(document.getElementById('love'));</script>½Å±¾
  * */
 var love = function (r) { 
   function t() { 
