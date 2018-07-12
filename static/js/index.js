@@ -3,7 +3,7 @@
 */	
 function checkserAgent() {
 	var userAgentInfo = navigator.userAgent;
-	var userAgentKeywords = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod", "MQQBrowser");//定义移动终端的操作系统类型
+	var userAgentKeywords = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPod", "MQQBrowser");//定义移动终端的操作系统类型
 	var flag = false;
 	//排除windows系统 苹果系统
 	/*if (userAgentInfo.indexOf("Windows NT") == -1) {
