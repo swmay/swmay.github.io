@@ -6,8 +6,16 @@ function checkserAgent() {
 	var userAgentKeywords = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod", "MQQBrowser");//定义移动终端的操作系统类型
 	var flag = false;
 	//排除windows系统 苹果系统
-	if (userAgentInfo.indexOf("Windows NT") == -1) {
+	/*if (userAgentInfo.indexOf("Windows NT") == -1) {
 		flag = true;
+	}*/
+	////排除上述数组中的设备
+	for (var i=0,len=userAgentKeywords.length; i<len; i++){
+		if (userAgentInfo.indexOf(userAgentKeywords[i]) != -1) {
+			flag = true;
+			//return flag;
+			break;
+		}
 	}
 	return flag;
 }
