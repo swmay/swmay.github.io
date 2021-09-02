@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>鹊牛精选地图</title>
+
+    <!-- keywords:关键字 作用：关键字,给搜索引擎用的 -->
+	<meta name="Keywords" content="鹊牛精选"/>
+	<!-- description:页面描述  作用：显示网页页面描述内容 -->
+	<meta name="Description" content="Swmay Maps Service."/>
+	<link rel="dns-prefetch" href="//www.swmay.com"/>
+	<link rel="dns-prefetch" href="//swmay.com"/>
+	<link rel="shortcut icon" href="./images/favicon.ico"/>
+	<link rel="icon" href="//www.swmay.com/images/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="./static/css/map.css"/>
+	<script type="text/javascript" src="./static/js/map.js"></script>
+    <script type="text/javascript"> 
+        /**
+        if (window!=top) // 判断当前的window对象是否是top对象 
+        top.location.href =window.location.href; // 如果不是，将top对象的网址自动导向被嵌入网页的网址 (反框架嵌入方式)
+        */
+        try{ //防止被框架嵌套
+            top.location.hostname;
+            if (top.location.hostname != window.location.hostname) {
+                top.location.href =window.location.href;
+            }
+        }catch(e){
+            top.location.href = window.location.href;
+        }
+    </script>
+
+    <!-- Reference to the Bing Maps SDK -->
+    <script type='text/javascript'
+            src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=AhpfhKK3CgQtruk4YWaKuMYZI_zpYyCBBhamgnhj1spm4BdUyhDgaj1Bnw31wgxr' 
+            async defer></script>
+</head>
+<body>
+    <!-- 网页页眉部分 -->
+  	<div id="page-header">
+    	<p class="menu">&nbsp;</p>
+    	<p class="menu-swmay">鹊 牛 精 选™ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p/>
+    	<a href="./">
+    		<img alt="SWMAY" src="./images/Swmay-feather.png"/><!--  width="800" height="72"  -->
+    	</a>
+    	<a class="badge" href="./">
+    		<img src="./images/Swmay-small.png"/>
+    	</a>
+    </div>
+
+    <div id="myMap"></div>
+
+    <br/>
+    <!-- 网页页脚部分 -->
+	<div id="footer">
+		<p class="swmay">Copyright ©2021 安徽鹊牛科技有限公司. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Our slogan is <a id="love" href="http://www.swmay.com">cats hind their paws.</a></p>
+		<p class="menu"><a href="./faq.html">FAQ</a> | <a href="./contact.html">Contact us</a> | <a href="./sitemap.html">Sitemap</a> | <a href="./map.html">Maps</a></p>
+	</div>
+	<script type="text/javascript">
+		love(document.getElementById('love'));
+	</script>
+</body>
+</html>
