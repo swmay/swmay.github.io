@@ -1,2 +1,2 @@
-# swmay.github.io	swmay.com
+# swmay.github.io swmay.com
 The home page.
